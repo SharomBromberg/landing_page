@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bradley Hand ITC";
+  font-weight: bold;
+}
+.navbar {
+  display: flex;
+  background-color: #143447;
+  border-bottom: solid #ff0763;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+.navitems {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+
+  .link {
+    color: aliceblue;
+    text-decoration: none;
+    &:hover {
+      color: #ff0763;
+    }
+  }
+}
