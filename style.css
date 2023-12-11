@@ -72,6 +72,7 @@ main {
         background-color: #143447;
         color: aliceblue;
         font-size: large;
+        border-radius: 1rem;
         &:hover {
           color: #ff0763;
         }
