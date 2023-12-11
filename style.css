@@ -5,6 +5,13 @@
   font-family: "Bradley Hand ITC";
   font-weight: bold;
 }
+
+main {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .navbar {
   display: flex;
   background-color: #143447;
@@ -28,6 +35,44 @@
     text-decoration: none;
     &:hover {
       color: #ff0763;
+    }
+  }
+}
+.info-section {
+  display: flex;
+  padding: 10rem;
+  gap: 5rem;
+  max-width: 100%;
+  align-items: center;
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      color: #e86ba7;
+      margin-bottom: 5rem;
+      font-weight: bolder;
+    }
+    .info-paragraph {
+      width: 100%;
+      margin-bottom: 5rem;
+    }
+    .info-button {
+      display: flex;
+      gap: 5rem;
+      button {
+        width: 15rem;
+        height: 2rem;
+        background-color: #143447;
+        color: aliceblue;
+      }
+    }
+  }
+  .info-card {
+    width: 50%;
+    img {
+      width: 20rem;
     }
   }
 }
